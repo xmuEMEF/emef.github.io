@@ -1,6 +1,6 @@
-# DiffSFSR
+# 🌟DiffSFSR
 
-This is the homepage of [DiffSFSR](https://diffsfsr.github.io).
+✨This is the homepage of [DiffSFSR](https://diffsfsr.github.io).
 
 # Citation
 If you find DiffSFSR useful for your work please cite:
