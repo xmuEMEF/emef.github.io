@@ -4,6 +4,7 @@
 
 # Citation
 If you find DiffSFSR useful for your work please cite:
+@TODO
 <!-- ```
 @article{park2021nerfies
   author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
