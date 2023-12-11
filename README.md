@@ -1,4 +1,4 @@
-# Nerfies
+# DiffSFSR
 
 This is the homepage of [DiffSFSR](https://diffsfsr.github.io).
 
