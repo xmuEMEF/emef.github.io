@@ -1,6 +1,6 @@
 window.HELP_IMPROVE_VIDEOJS = false;
 
-var INTERP_BASE = "./static/assets/interpolation";
+var INTERP_BASE = "./static/interpolation";
 var NUM_INTERP_FRAMES = 31;
 
 var interp_images = [];
