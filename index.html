@@ -294,15 +294,11 @@
     <!-- Animation. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
-
         <!-- Interpolating. -->
-        <h3 class="title is-4">Interpolating states</h3>
+        <h2 class="title is-3">Expression Travel</h2>
         <div class="content has-text-justified">
           <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
+            DiffSFSR also supports expression travel by interpolating between embeddings to further explore fine-grained expression. 
           </p>
         </div>
         <div class="columns is-vcentered interpolation-panel">
@@ -341,10 +337,11 @@
 <section class="section">
   <div class="container is-max-desktop">
     <div class="columns is-centered">
+      <h2 class="title is-3">Improved Midpoint Sampling</h2>
          <!-- Qualitative. -->
 <div class="column">
   <div class="content">
-    <h2 class="title is-3">Qualitative</h2>
+    <h3 class="title is-3">Qualitative</h2>
     <p>
       Here are some cases of sampling results. As shown above, Our results are not only more faithful to ground truth, 
       but also more realistic and clear in the regions of eyes, mouths and even the reflection of sunglasses.
@@ -356,7 +353,7 @@
 
 <!-- Quantitative. -->
 <div class="column">
-  <h2 class="title is-3">Quantitative</h2>
+  <h3 class="title is-3">Quantitative</h2>
   <div class="columns is-centered">
     <div class="column content">
       <p>
