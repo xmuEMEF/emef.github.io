@@ -184,9 +184,7 @@
     <div class="hero-body">
       <img src="./static/assets/banner.png">
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
+        <span class="dnerf">DiffSFSR takes three inputs: a prompt describing the background, a selfie photo uploaded by the user, and a text related to the fine-grained expression labels. The generated faces well match the inputted triples and exhibit fine-grained expression synthesis.
       </h2>
     </div>
   </div>
@@ -294,6 +292,9 @@
 
     <div class="columns is-centered">
 
+
+
+
     <!-- Animation. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
@@ -359,41 +360,6 @@
     <!--/ Animation. -->
 
 
-          <!-- Visual Effects. -->
-          <div class="column">
-            <div class="content">
-              <h2 class="title is-3">Qualitative</h2>
-              <p>
-                Here are some cases of sampling results. As shown above, Our results are not only more faithful to ground truth, 
-                but also more realistic and clear in the regions of eyes, mouths and even the reflection of sunglasses.
-              </p>
-              <img src="./static/assets/IMP_quality.png">
-            </div>
-          </div>
-          <!--/ Visual Effects. -->
-    
-          <!-- Matting. -->
-          <div class="column">
-            <h2 class="title is-3">Quantitative</h2>
-            <div class="columns is-centered">
-              <div class="column content">
-                <p>
-                  We employ MSE to measure the error between sampling results and ground truth. 
-                  All sampling methods can decrease the reconstruction errors along with the training steps 
-                  increasing. Our sampling method can achieve lower MSE than others in all periods.
-                </p>
-                <video id="matting-video" controls playsinline height="100%">
-                  <source src="./static/assets/IMP_quantity.png"
-                          type="video/mp4">
-                </video>
-              </div>
-    
-            </div>
-          </div>
-        </div>
-        <!--/ Matting. -->
-
-
     <!-- Concurrent Work. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
@@ -423,6 +389,43 @@
 
   </div>
 </section>
+
+
+
+<!-- Qualitative. -->
+<div class="column">
+  <div class="content">
+    <h2 class="title is-3">Qualitative</h2>
+    <p>
+      Here are some cases of sampling results. As shown above, Our results are not only more faithful to ground truth, 
+      but also more realistic and clear in the regions of eyes, mouths and even the reflection of sunglasses.
+    </p>
+    <img src="./static/assets/IMP_quality.png">
+  </div>
+</div>
+<!--/ Qualitative. -->
+
+<!-- Quantitative. -->
+<div class="column">
+  <h2 class="title is-3">Quantitative</h2>
+  <div class="columns is-centered">
+    <div class="column content">
+      <p>
+        We employ MSE to measure the error between sampling results and ground truth. 
+        All sampling methods can decrease the reconstruction errors along with the training steps 
+        increasing. Our sampling method can achieve lower MSE than others in all periods.
+      </p>
+      <video id="matting-video" controls playsinline height="100%">
+        <source src="./static/assets/IMP_quantity.png"
+                type="video/mp4">
+      </video>
+    </div>
+
+  </div>
+</div>
+</div>
+<!--/ Quantitative. -->
+
 
 
 <section class="section" id="BibTeX">
