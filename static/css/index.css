@@ -140,6 +140,8 @@ body {
 
 .interpolation-video-column {
   text-align: center;
+  display:flex;
+  justify-content:center;
 }
 
 .interpolation-panel .slider {
